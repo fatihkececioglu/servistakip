@@ -1,0 +1,100 @@
+.customer-info, .service-info {
+  flex-wrap: wrap;
+}
+
+.service-info {
+    flex-wrap: wrap;
+}
+
+.device-info{
+    flex-wrap: wrap;
+}
+
+.servisyokyazisi{
+    display:inline-block;
+    margin-bottom: 0px;
+}
+
+.servisYok{
+    float: left;
+}
+.col-lg-12{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.yazili-alanlar{
+    display: flex;
+}
+
+.hasar-ucret{
+    display: flex;
+}
+.ucret-bildir {
+    margin-top: 85px;
+}
+
+.table td:nth-child(11),
+.table td:nth-child(12),
+.table td:nth-child(13) {
+    max-width: 200px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.search{
+    width: 20%;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+
+
+input, select, textarea{
+    padding: 10px; /* Kutu içeriği ile kenar arasındaki boşluk */
+    margin: 5px; /* Kutular arasındaki boşluk */
+    border: 1px solid #ccc; /* Kenarlık rengi ve kalınlığı */
+    border-radius: 5px; /* Köşe yuvarlama */
+    box-sizing: border-box; /* Padding ve border'ı içeriğin içine dahil etme */
+}
+button {
+    background-color: #214761;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    text-align: left;
+    padding: 8px;
+}
+
